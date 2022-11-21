@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: stretch;
+}
+
+.title {
+    font-weight: 600;
+    font-size: 1.875rem;
+    line-height: 120%;
+    letter-spacing: -0.2px;
+    color: #FFFFFF;
+    align-self: center;
+}
+
+.input {
+    display: block;
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 135%;
+    color: #EAE6EF;
+
+}
+
+.input__wrapper {
+    position: relative;
+    display: flex;
+    justify-content: baseline;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.input__input {
+    width: 100%;
+    border: 1px solid #3F3B4C;
+    border-radius: 8px;
+    background-color: inherit;
+    padding: 11px 0px 11px 55px;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.input__input:hover {
+    background: #201C2D;
+}
+
+.input__input:focus {
+    border: 1px solid #7B14FF;
+    color: #FFFFFF;
+}
+
+.input__input::placeholder {
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #90859C;
+}
+
+
+.button {
+    width: 100%;
+    height: 48px;
+    padding: 12px 32px;
+    background: #7B14FF;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 150%;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.button:hover {
+    background: #8647E0;
+    transition: 0.3s ease;
+}
+
+.button:focus {
+    background-color: #4400A5;
+}
+
+.privacy {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 160%;
+    text-align: center;
+    color: #90859C;
+}
+
+.privacy__link {
+    cursor: pointer;
+    color: inherit;
+}
+
+.login {
+    background-image: url(./BG.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 72px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.login__container  {
+    max-width: 386px;
+    width: 100%;
+}
+
+.login__title {
+    margin-bottom: 40px ;
+}
+
+.login__input {
+    margin-bottom: 24px;
+}
+
+.login__button{
+    margin-bottom: 32px;
+}

@@ -5,9 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>CSSS Login</title>
+    <title>CSS Login</title>
 </head>
 <body>
-    
+    <div class="login">
+        <div class="login__container ">
+            <h1 class="login__title  title">Log In</h1>
+            <form class="login__form">
+                <label class="login__input input" for="email">Email
+                    <span class="input__wrapper">
+                        <input class="input__input input"
+                                id="email"
+                                type="email"
+                                placeholder="email@example.com"
+                                minlength="8"
+                                maxlength="50"
+                                required>
+                    </span>
+                </label>
+                <label class="login__input input" for="password">Password
+                    <span class="input__wrapper">
+                        <input class="input__input input"
+                                id="password"
+                                type="password"
+                                placeholder="minimum 8 characters"
+                                minlength="8"
+                                maxlength="50"
+                                required>
+                    </span>
+                </label>
+                <button class="login__button button " type="submit">Log In</button>
+            </form>
+            <p class="login__privacy privacy">By logging in you indicate that you have read and agree to our <a class="privacy__link" href="#">Terms of Use</a> and <a class="privacy__link" href="#">Privacy Policy.</a></p>
+        </div>
+    </div>
 </body>
 </html>
