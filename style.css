@@ -52,6 +52,7 @@
     font-size: 1rem;
     line-height: 150%;
     color: #FFFFFF;
+    
 }
 
 .input__input:hover {
@@ -67,7 +68,9 @@
     font-weight: 600;
     font-size: 1rem;
     line-height: 150%;
-    color: #90859C;
+    color: #90859C; 
+    position: absolute;    
+    left: 16px;         
 }
 
 
@@ -95,7 +98,7 @@
 
 .privacy {
     font-weight: 400;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 160%;
     text-align: center;
     color: #90859C;
@@ -116,14 +119,20 @@
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    align-content: center;
 }
 
 .login__container  {
     max-width: 386px;
     width: 100%;
+    align-content: center;
+    align-items: center;
+    margin-top: 178px;
 }
 
-.login__title {
+h1 {
+    display: flex;
+    justify-content: center;
     margin-bottom: 40px ;
 }
 
