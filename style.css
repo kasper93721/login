@@ -98,7 +98,7 @@
 .privacy {
     font-weight: 400;
     font-size: 14px;
-    line-height: 160%;
+    line-height: 100%;
     text-align: center;
     color: #90859C;
 }
@@ -117,16 +117,14 @@
     padding: 72px 20px 20px 20px;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
-    align-content: center;
+    align-items: center;    
 }
 
 .login__container  {
     max-width: 386px;
-    width: 100%;
+    width: 100%;    
     align-content: center;
     align-items: center;
-    margin-top: 178px;
 }
 
 h1 {
